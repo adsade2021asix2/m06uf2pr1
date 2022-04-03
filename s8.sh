@@ -39,7 +39,7 @@ do
                     echo "" >> nousUsuaris.ldif
                     ((uidNumber++))
                 done
-                #ldapadd -x -W -D "cn=UsuarisDomini,ou=UsuarisGrups,dc=fjeclot,dc=net" -f nousUsuaris.ldif
+                ldapadd -x -W -D "cn=UsuarisDomini,ou=UsuarisGrups,dc=fjeclot,dc=net" -f nousUsuaris.ldif
 
             break;
             fi
