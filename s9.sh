@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-
+#Adria Sabate
 while [[ true ]]
 do
     echo "Numero d'usuaris totals (entre 1 i 100) "
